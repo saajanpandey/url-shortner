@@ -1,2 +1,26 @@
-.env
+# Operating System Files
 .DS_Store
+Thumbs.db
+
+# IDE and Editor Folders
+.vscode/
+.idea/
+*.swp
+
+# Environment Variables & Secrets
+.env
+.env.local
+*.pem
+
+# Logs and Temporary Files
+*.log
+npm-debug.log*
+tmp/
+temp/
+
+# Dependencies & Build Outputs
+node_modules/
+__pycache__/
+*.pyc
+dist/
+build/
